@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio1</title>
+</head>
+<body>
+    <header>
+    <nav>
+        <img src="https://www.mamaracha.es/img/fb.png" width="180px" height="100px" alt="logoMamaracha"/>
+        <a href="Ejercicio1.html#home">Home</a>
+        <a href="Ejercicio1.html#concept">Concepto</a>
+        <a href="Ejercicio1.html#fotos">Fotos</a>
+        <a href="Ejercicio1.html#menu">Menú</a>
+        <a href="Ejercicio1.html#reservas">Reservas</a>
+        <a href="Ejercicio1.html#blog">Blog</a>
+        <a href="Ejercicio1.html#contacto">Contacto</a>
+    </nav>
+    </header>
+    <main>
+        <div id="home">
+        <h1><i>Descubre</i></h1>
+        <h2><strong>MAMA RACHA</strong></h2>
+        <p>Estamos abiertos</p>
+        </div>
+        <div id="concept">
+            <h3><strong>CONCEPTO</strong></h3>
+            <p>Mama Racha es un fantástico restaurante de cocina internacional ubicado en el barrio de cánovas. Distribuido en una sola planta y una estupenda terraza, destaca por su concepto moderno.</p>
+            <p>Disfruta de comidas de 12h a 17h y cenas de 20h a 23h en el centro de Valencia, además disfruta de tus tapas y bebidas favoritas todo el día.</p>
+            <p>En Mama Racha encontrarás platos típicos de la gastronomía española así como de la gastronomía argentina, elaborados por nuestros chefs y preparados con cariño por todo el equipo de cocina.</p>
+        </div>
+        <div id="fotos">
+            <img src="https://www.mamaracha.es/img/s/1.jpg" width="500px" height="200px"/>
+            <img src="https://www.lovevalencia.com/wp-content/uploads/2018/11/mamaracha-taberna-valencia.jpg" width="500px" height="200px"/>
+            <img src="https://eltipoquenuncacenaencasa.com/wp-content/uploads/2019/12/mamarracha-el-tipo-que-nunca-cena-en-casa-02.jpg" width="500px" height="400px"/>
+            <img src="https://www.mamaracha.es/img/s/6.jpg" width="500px" height="200px"/>
+            <img src="https://www.mamaracha.es/img/g/7.jpg" width="500px" height="300px"/>
+            <img src="https://www.mamaracha.es/img/mg.jpg" width="500px" height="200px"/>
+        </div>
+        <div id="menu">
+            <h3><strong>CARTA</strong></h3>
+            <a href="Ejercicio1.html#entrantes">Entrantes</a> <a href="Ejercicio1.html#principales">Principales</a> <a href="Ejercicio1.html#postres">Postres</a>
+            <section id="entrantes">
+                <h4><i>Entrantes</i></h4>
+                <article>
+                    <h5>Calientes</h5>
+                    <ul>
+                        <li>Patatas bravas</li>
+                        <li>Huevos rotos</li>
+                        <li>Empanada argentina</li>
+                        <li>Rabo de toro con cremoso de patata</li>
+                    </ul>
+                </article>
+                <article>
+                    <h5>Fríos</h5>
+                    <ul>
+                        <li>Ensaladilla rusa</li>
+                        <li>Tabla de quesos</li>
+                        <li>Tartar de steak</li>
+                        <li>Tartar de atún</li>
+                    </ul>
+                </article>
+            </section>
+            <section id="principales">
+                <h4><i>Principales</i></h4>
+                <ol>
+                    <li>Pulpo a la parrilla</li>
+                    <li>Entrecot argentino</li>
+                    <li>Arroz meloso de carrillada de cerdo</li>
+                    <li>Tacos de ventresca</li>
+                    <li>Croquetas de pollo con mayonesa de curry</li>
+                </ol>
+            </section>
+            <section id="postres">
+                <h4><i>Postres</i></h4>
+                <ul>
+                    <li>Torrija crujiente</li>
+                    <li>Tarta de queso y pistacho</li>
+                    <li>Tarta de manzana</li>
+                    <li>Brownie de chocolate</li>
+                </ul>
+            </section>
+        </div>
+        <div id="reservas">
+            <h3><strong>RESERVAS</strong></h3>
+            <form action="Ejercicio1.html">
+                <label for="sala">
+                    <p>Sala o terraza</p>
+                    <select id="sala" name="sala">
+                        <option value="sala">Sala</option>
+                        <option value="terraza">Terraza</option>
+                    </select>
+                </label>
+                <label for="personas">
+                    <p>Personas</p>
+                    <input type="number" name="personas">
+                </label>
+                <label for="fechaYhora">
+                    <p>Fecha y hora</p>
+                    <input type="text" name="fechayhora">
+                </label>
+                <label for="telefono">
+                    <p>Número de teléfono</p>
+                    <input type="text" name="telefono" pattern="ddd ddd ddd">
+                </label>
+                <label for="nombre">
+                    <p>Nombre de la reserva</p>
+                    <input type="text" name="nombre">
+                </label>
+                <div>
+                    <input type="submit" value="Reservar"></input>
+                </div>
+            <aside>
+                    <h2><strong>Mama Racha</strong></h2>
+                    <p>Calle Ciscar, 15 (Valencia)<br>
+                        Abrimos de lunes a sábado de 12h a 24h</p>
+            </aside>
+        </div>
+        <div id="blog">
+            <h3><strong>BLOG</strong></h3>
+            <section>
+                <a href="/"><h4><strong>MAMA RACHA ABRE NUEVA TERRAZA DE VERANO</strong></h4></a>
+                <p>Este viernes 6 de junio se ha inaugurado la terraza de Mama Racha.</p>
+            </section>
+            <section>
+                <a href="/"><h4><strong>PROMOCIÓN ESPECIAL: TARTA & COCKTAIL 6.90€</strong></h4></a>
+            </section>
+            <section>
+                <a href="/"><h4><strong>MAMA RACHA: BRUNCH 2 DE MARZO</strong></h4></a>
+            </section>
+            <a href="Ejercicio1.html">Ver todas las entradas</a>
+        </div>
+        <div id="contacto">
+            <h3><strong>CONTACTO</strong></h3>
+            <img src="https://cdn.icon-icons.com/icons2/619/PNG/512/map-with-placeholder_icon-icons.com_56692.png" width="100px" height="100px" alt="iconoMapa">
+            <p>Calle Ciscar 15 <br>
+                46001 - Valencia</p>
+            <img src="https://static.vecteezy.com/system/resources/previews/017/177/709/original/phone-icon-symbol-on-transparent-background-free-png.png" width="100px" height="100px" alt="iconoTelefono">
+            <p>659831244</p>
+            <img src="https://www.pngall.com/wp-content/uploads/13/Email-Logo-PNG-Image.png" width="100px" height="100px" alt="iconoEmail">
+            <p>mamaracha@mamaracha.ar</p>
+            <h3><strong>SÍGUENOS</strong></h3>
+            <a href="/">Facebook</a> <a href="/">Instagram</a>
+        </div>
+    </main>
+    <footer>
+        <h3>ENLACES DE INTERÉS</h3>
+        <div><a href="/">Aviso legal</a></div>
+        <a href="/">Cookies</a>
+        <h3>HORARIOS</h3>
+        <p>Lunes a sábado<br>
+        12:00h - 24:00h</p>
+        <h3>CONTACTO</h3>
+        <p>C/ Ciscar, 15<br>
+        46001 - Valencia</p>
+        <p>659831244<br>
+        mamaracha@mamaracha.ar</p>
+    </footer>
+</body>
+</html>
