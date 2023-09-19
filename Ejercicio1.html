@@ -19,7 +19,7 @@
     </nav>
     </header>
     <main>
-        <div id="home">
+        <div id="home" style="color:blueviolet">
         <h1><i>Descubre</i></h1>
         <h2><strong>MAMA RACHA</strong></h2>
         <p>Estamos abiertos</p>
@@ -84,8 +84,10 @@
         </div>
         <div id="reservas">
             <h3><strong>RESERVAS</strong></h3>
-            <form action="Ejercicio1.html">
-                <label for="sala">
+            <form action="Ejercicio1.html" method="get">
+                <fieldset>
+                    <legend>Datos de la reserva</legend>
+                    <label for="sala">
                     <p>Sala o terraza</p>
                     <select id="sala" name="sala">
                         <option value="sala">Sala</option>
@@ -100,6 +102,9 @@
                     <p>Fecha y hora</p>
                     <input type="datetime-local" required name="hours" id="hours" placeholder="Seleccione una hora">
                 </label>
+            </fieldset>
+                <fieldset>
+                    <legend>Tus datos</legend>
                 <label for="telefono">
                     <p>Número de teléfono</p>
                     <input type="text" name="telefono" pattern="ddd ddd ddd" placeholder="666 666 666">
@@ -108,6 +113,7 @@
                     <p>Nombre de la reserva</p>
                     <input type="text" name="nombre" placeholder="Nombre y apellido">
                 </label>
+            </fieldset>
                 <div>
                     <input type="submit" value="Reservar"></input>
                 </div>
