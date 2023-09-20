@@ -1,0 +1,34 @@
+
+section {
+    background-color: rgb(255, 192, 247);
+    width: 100vw;
+    height: 100vh;
+}
+
+header {
+    background-color: rgb(140, 222, 255);
+    width: 100%;
+    height: 10%;
+
+}
+
+#home {
+    background-color: rgb(255, 192, 247);
+    width: 100%;
+    height: 90%;
+}
+
+footer {
+    background-color: aquamarine;
+    width: 100%;
+    height: 100%;
+}
+
+#descubre {
+    font-family: 'Fuggles', cursive;
+    font-size: 115px;
+}
+
+h1 {
+    font-size: 115px;
+}
